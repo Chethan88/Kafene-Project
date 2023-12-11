@@ -1,0 +1,111 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.topbar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0 48px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow: 0 2px 4px #ccc;
+    background-color: #fff;
+    justify-content: space-between;
+    height: 65px;
+}
+.topbar-logo{
+    display: flex;
+    align-items: center;
+    margin-right: 36px;
+}
+.topbar-logo img{
+    width: 24px;
+    height: 28px;
+    margin-right: 8px;
+}
+.topbar-logo p{
+    font-size: 24px;
+    letter-spacing: -1px;
+    font-weight: 500;
+    margin: 0;
+    color: rgba(0,0,0,.8);
+}
+.topbar-left-menu{
+    display: flex;
+    align-items: center;
+}
+.topbar-menu-items{
+    text-decoration: none;
+    color: rgba(0,0,0,.8);
+    padding: 24px 0 16px;
+    font-size: 14px;
+    font-weight: 550;
+    letter-spacing: .6px;
+    margin: 0 10px;
+}
+.topbar-menu-items.active{
+    color: #20b883;
+    padding-bottom: 22px;
+    border-bottom: 3px solid #20b883;
+}
+
+#loginform-wrapper{
+    margin-top: 100px;
+}
+.LoginPage{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 6px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 32px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 6px #ccc;
+}
+.LoginPage h1{
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin: 0 0 24px;
+    font-family: "Poppins",sans-serif;
+}
+.LoginPage_InputField{
+    width: 100%;
+    padding-top: 16px;
+    font-size: 14px;
+    box-sizing: border-box;
+    border: 0;
+    border-bottom: 2px solid #8c8c8c;
+    margin-bottom: 16px;
+    outline: none;
+}
+.LoginPage_Button{
+    height: 50px;
+    display: inline-block;
+    border-radius: 30px;
+    padding: 14px 36px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background-color: #20b883;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 24px;
+    font-family: "Poppins",sans-serif;
+}
+.filter-option input{
+    border-radius: 24px;
+}
